@@ -21,23 +21,6 @@ knitr::opts_chunk$set(
   warning = FALSE
 )
 ```
-
-class: inverse, center, middle
-
-# Weight Training Log
-### Cleaning + EDA
-
-
----
-
-# Roadmap
-
-1. Data & scope  
-2. Cleaning 
-3. Exploratory data analysis (EDA)  
-4. Key takeaways 
-
----
 # Dataset: Weightlifting Training Logs
 
 **Source:** Kaggle – Weightlifting Dataset  
@@ -356,10 +339,36 @@ class: inverse
 
 --
 
-**Next steps (If I were to take them):**
+**Possible Next Steps:**
 - Break down trends by exercise category
 - Add PR tracking and deload detection rules
 - Build a simple model to predict volume or max-weight trend from recent training
 - Look for more data/track people I know
 
+---
 
+# Implications for Stakeholders
+
+**For the athlete (or coach):**
+- Track **training volume and frequency** to avoid overtraining
+- Identify **progress trends** (e.g., squat max increasing over time)
+- Spot **plateaus or drops** that may suggest fatigue or need for deloads
+
+**For gym programmers / trainers:**
+- See how **exercise selection and frequency** evolve over time
+- Use volume and intensity trends to **adjust programming**
+- Compare **planned vs. actual** training behavior
+
+---
+
+# Ethical, Legal, and Societal Considerations
+
+**Data privacy & consent:**
+- This dataset represents **personal health and fitness behavior**
+- In real applications, such data should be **anonymized and protected**
+- Users should know **how their data is used and shared**
+
+**Societal context:**
+- Fitness data is increasingly used in apps, wearables, and health platforms
+- Raises questions about **surveillance, tracking, and performance pressure**
+- Highlights the need for **responsible, transparent data use** in health-related analytics
